@@ -42,6 +42,23 @@ Before downloading, make sure your system meets the minimum requirements:
 | **macOS** | macOS 10.12 or newer | .dmg |
 | **GNU/Linux** | 64-bit OS (x86_64 or ARM64) | AppImage, .deb, snap, .rpm |
 
+For GNU/Linux, we recommend you install X.Org 1.0 or higher, DBus 1.0 or higher, NetworkManager 0.7 or higher, and PulseAudio.
+
+**Enterprise Support**
+
+If you have an Enterprise Support agreement with PrivacySafe Services, you must meet these requirements: 
+
+| Operating System | Minimum Requirements | Installer Type |
+| ---------------- | -------------------- | -------------- |
+| **Windows** | 64-bit Windows 10 or newer | .exe |
+| **macOS** | macOS 10.15 or newer | .dmg |
+| **Ubuntu Linux** | 22.10 LTS or newer | AppImage, .deb, snap |
+
+**Recommended Hardware**
+ - Processor: 2 GHz or faster Intel/AMD x86_64 or Apple Silicon M1+
+ - Memory: 1 GB of RAM
+ - Disk Space: 500MB
+
 ### Windows Instructions
  - **[Download Windows Installer](https://download.privacysafe.app/nightly/windows/PrivacySafe-Setup-x64.exe)** (.exe file)
  - SHA256 &amp; SHA512 checksums for Windows downloads are [published here](https://download.privacysafe.app/nightly/windows/checksums.json).
