@@ -580,11 +580,11 @@ In addition, you can:
  </p>
 
 ## 🛠️ Troubleshooting
- - 🧐 **Overview**: If you encounter any issues with the PrivacySafe Enterprise Suite, follow these troubleshooting steps:
- - **Step 1**: Check if your internet connection is stable and active.
+🧐 If you encounter any issues with the PrivacySafe Enterprise Suite, follow these troubleshooting steps:
+ - **Step 1**: Check that your internet connection is stable and active.
  - **Step 2**: Ensure that you are using the latest version of the PrivacySafe Suite (check the App Store for updates).
  - **Step 3**: If the problem persists, contact our support team.
- - ✉️ Email us directly at **support@privacysafe.app** with:
+ - ✉️ Email us directly at **support@privacysafe.net** with:
     - A brief description of the issue
     - The error message (if any)
     - Your operating system and version of PrivacySafe
