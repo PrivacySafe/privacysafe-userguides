@@ -52,12 +52,13 @@ If you have an Enterprise Support agreement with PrivacySafe Services, you must 
 | ---------------- | -------------------- | -------------- |
 | **Windows** | 64-bit Windows 10 or newer | .exe |
 | **macOS** | macOS 10.15 or newer | .dmg |
-| **Ubuntu Linux** | 22.10 LTS or newer | AppImage, .deb, snap |
+| **Ubuntu Linux** | 22.10 LTS or newer (x86_64) | AppImage, .deb, snap |
+| **Debian GNU/Linux** | 12 Bookworm or newer (x86_64) | AppImage, .deb |
 
 **Recommended Hardware**
  - Processor: 2 GHz or faster Intel/AMD x86_64 or Apple Silicon M1+
  - Memory: 1 GB of RAM
- - Disk Space: 500MB
+ - Disk Space: 500 MB
 
 ### Windows Instructions
  - **[Download Windows Installer](https://download.privacysafe.app/nightly/windows/PrivacySafe-Setup-x64.exe)** (.exe file)
