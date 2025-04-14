@@ -186,9 +186,11 @@ PrivacySafe VPN works seamlessly using both OpenVPN and Wireguard protocols on i
 
 1. **Install OpenVPN (if using OpenVPN):**
  - Download the **OpenVPN for Android** app from the [Google Play Store](https://play.google.com/store/apps/details?id=net.openvpn.openvpn3).
+ - Alternatively, you can also download **OpenVPN for Android** from [F-Droid](https://f-droid.org/en/packages/de.blinkt.openvpn/) which does not require a Google Account.
 
 2. **Install Wireguard (if using Wireguard):**
  - Download the **Wireguard** app from the [Google Play Store](https://play.google.com/store/apps/details?id=com.wireguard.android).
+ - Alternatively, you can download **WG Tunnel** from [F-Droid](https://f-droid.org/en/packages/com.zaneschepke.wireguardautotunnel/) which does not require a Google Account.
 
 3. **Import Configuration:**
  - For **OpenVPN**, import the `.ovpn` configuration file into the OpenVPN app.
