@@ -1,0 +1,97 @@
+openapi: 3.0.3
+info:
+  title: 3NWeb API Reference
+  description: >
+    API specification for the 3NWeb platform. This API enables secure interaction with object storage, session management, delivery and retrieval, authentication, and configuration services for the PrivacySafe ecosystem.
+  version: 1.0.0
+  contact:
+    name: PrivacySafe
+    url: https://privacysafe.app
+    email: support@privacysafe.net
+
+servers:
+  - url: https://privacysafe.io/v1
+    description: Production server
+
+paths:
+  /pub-key-login:
+    post:
+      summary: Public Key Login
+      description: Handles login requests using public key authentication.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              oneOf:
+                - $ref: '#/components/schemas/Request'
+      responses:
+        '200':
+          description: Login reply
+          content:
+            application/json:
+              schema:
+                oneOf:
+                  - $ref: '#/components/schemas/Reply'
+                  - $ref: '#/components/schemas/RedirectReply'
+                  - $ref: '#/components/schemas/ErrorReply'
+
+components:
+  schemas:
+    Request:
+      type: object
+      properties:
+        userId:
+          type: string
+        pubKey:
+          type: string
+        signature:
+          type: string
+      required: [userId, pubKey, signature]
+
+    Reply:
+      type: object
+      properties:
+        success:
+          type: boolean
+        sessionToken:
+          type: string
+
+    RedirectReply:
+      type: object
+      properties:
+        redirectUrl:
+          type: string
+
+    ErrorReply:
+      type: object
+      properties:
+        error:
+          type: string
+
+    WebSocketSubscriptionRequest:
+      type: object
+      properties:
+        type:
+          type: string
+          enum: [subscribe, unsubscribe]
+        topic:
+          type: string
+      required: [type, topic]
+
+    WebSocketSubscriptionReply:
+      type: object
+      properties:
+        type:
+          type: string
+        status:
+          type: string
+        topic:
+          type: string
+      required: [type, status, topic]
+
+    WebSocketErrorReply:
+      type: object
+      properties:
+        error:
+          type: string
