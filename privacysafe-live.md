@@ -67,31 +67,59 @@ Desktop or laptop computer is recommended for best quality and ease of use. If y
 <summary><strong>Quick troubleshooting</strong></summary>
 
 **No mic detected** — check the permission prompt and click **Allow**.
-[!Chrome permissions prompt asking to allow mic and camera](https://kb.hubkengroup.com/hubfs/BBB%20user%20guide%20images/9.png)
+
+<div align="center">
+  <img src="https://kb.hubkengroup.com/hubfs/BBB%20user%20guide%20images/9.png" alt="Chrome permissions prompt asking to allow mic and camera" />
+</div>
+
 *Chrome permission prompt for mic and camera.*
 
 **Blocked device icon** — click the camera icon near the address bar to unblock.
-[!Chrome camera icon with an x showing that access is blocked](https://kb.hubkengroup.com/hubfs/BBB%20user%20guide%20images/10.png)
+
+<div align="center">
+  <img src="https://kb.hubkengroup.com/hubfs/BBB%20user%20guide%20images/10.png" alt="Chrome camera icon with an x showing that access is blocked" />
+</div>
+
 *Unblock devices from the address-bar control.*
 
 **Firefox device picker** — choose your mic and click **Share Selected Devices**.
-[!Firefox dialog to share selected devices mic and camera](https://kb.hubkengroup.com/hubfs/BBB%20user%20guide%20images/16.jpg)
+
+<div align="center">
+  <img src="https://kb.hubkengroup.com/hubfs/BBB%20user%20guide%20images/16.jpg" alt="Firefox dialog to share selected devices mic and camera" />
+</div>
+
 *Firefox mic and camera selection dialog.*
 
 **Change device later** — use site permissions near the address bar.
-[!Firefox site permissions icon near the address bar](https://kb.hubkengroup.com/hubfs/BBB%20user%20guide%20images/17.jpg)
+
+<div align="center">
+  <img src="https://kb.hubkengroup.com/hubfs/BBB%20user%20guide%20images/17.jpg" alt="Firefox site permissions icon near the address bar" />
+</div>
+
 *Adjust site permissions if something was blocked.*
 
 **Audio controls** — use the bottom toolbar to mute/unmute at any time.
-[!Toolbar showing mute and unmute controls](https://kb.hubkengroup.com/hubfs/BBB%20user%20guide%20images/15.png)
+
+<div align="center">
+  <img src="https://kb.hubkengroup.com/hubfs/BBB%20user%20guide%20images/15.png" alt="Toolbar showing mute and unmute controls" />
+</div>
+
 *Toolbar with mic controls.*
 
 **Dial-in option** — if a phone number appears in the welcome chat, use it if your mic isn’t working.
-[!Chat area showing dial in information in blue](https://kb.hubkengroup.com/hubfs/BBB%20user%20guide%20images/14.png)
+
+<div align="center">
+  <img src="https://kb.hubkengroup.com/hubfs/BBB%20user%20guide%20images/14.png" alt="Chat area showing dial in information in blue" />
+</div>
+
 *Dial-in details appear in the welcome chat.*
 
 **Strict network** — if you see **Tunnelling** in the corner, try a different network or wired connection.
-[!Indicator showing tunnelling active due to restrictive network](https://kb.hubkengroup.com/hubfs/BBB%20user%20guide%20images/18.jpg)
+
+<div align="center">
+  <img src="https://kb.hubkengroup.com/hubfs/BBB%20user%20guide%20images/18.jpg" alt="Indicator showing tunnelling active due to restrictive network" />
+</div>
+
 *Network tunnelling indicator.*
 
 </details>
@@ -421,4 +449,4 @@ By default, the Instructors in Ivy Cyber Academy classes will be given "Moderato
 - **“As User how do I…”** [https://support.bigbluebutton.org/hc/en-us/sections/1500000871062-As-User-how-do-I](https://support.bigbluebutton.org/hc/en-us/sections/1500000871062-As-User-how-do-I)
 - **“As a Presenter how do I…”** [https://support.bigbluebutton.org/hc/en-us/sections/1500000845441-As-a-Presenter-how-do-I](https://support.bigbluebutton.org/hc/en-us/sections/1500000845441-As-a-Presenter-how-do-I)
 - [BigBlueButton Help Center:](https://support.bigbluebutton.org/hc/en-us/categories/1500000517381-BigBlueButton-HTML5)
-- * **PrivacySafe Live (BigBlueButton) home:** [https://privacysafe.live](https://privacysafe.live)
+- **PrivacySafe Live** [https://privacysafe.live](https://privacysafe.live)
